@@ -1,0 +1,16 @@
+{
+  "name": "ai-daily-digest",
+  "version": "1.0.0",
+  "description": "AI Builders Daily Digest - Track top AI builders and deliver curated bilingual summaries",
+  "type": "module",
+  "scripts": {
+    "prepare": "cd scripts && node prepare-digest.js",
+    "generate-feed": "cd scripts && node generate-feed.js",
+    "generate-html": "cd scripts && node generate-html.js",
+    "push-feishu": "cd scripts && node push-to-feishu.js"
+  },
+  "dependencies": {
+    "undici": "^7.16.0"
+  },
+  "license": "MIT"
+}

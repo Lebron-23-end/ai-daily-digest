@@ -1,0 +1,10 @@
+scripts/node_modules/
+node_modules/
+.env
+*.log
+.DS_Store
+output/
+feed-x.json
+feed-podcasts.json
+feed-blogs.json
+state-feed.json

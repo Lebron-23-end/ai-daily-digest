@@ -1,0 +1,16 @@
+{
+  "name": "ai-daily-digest-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for AI Daily Digest — feed generation, digest preparation, HTML conversion, Feishu push",
+  "type": "module",
+  "scripts": {
+    "generate-feed": "node generate-feed.js",
+    "prepare-digest": "node prepare-digest.js",
+    "generate-html": "node generate-html.js",
+    "push-feishu": "node push-to-feishu.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "undici": "^7.16.0"
+  }
+}
